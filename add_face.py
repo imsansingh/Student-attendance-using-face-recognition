@@ -7,7 +7,7 @@ import os
 video=cv2.VideoCapture(0)
 
 # to capture face features
-facedetect=cv2.CascadeClassifier('data/haarcascade_frontalface_default.xml')
+facedetect=cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 faces_data=[]
 
